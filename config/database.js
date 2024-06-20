@@ -9,7 +9,7 @@
         database: env('DATABASE_NAME', 'myshop-strapi'),
         user: env('DATABASE_USERNAME', 'postgres'),
         password: env('DATABASE_PASSWORD', 'DGpostgresql@622003'),
-        schema: env('DATABASE_SCHEMA', 'public'), // Not required
+        schema: env('DATABASE_SCHEMA', 'public'), 
       },
     }
   });
