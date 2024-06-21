@@ -899,7 +899,7 @@ export interface ApiProductProduct extends Schema.CollectionType {
     availableQty: Attribute.Integer &
       Attribute.Required &
       Attribute.DefaultTo<0>;
-    image: Attribute.Media<'images'> & Attribute.Private;
+    image: Attribute.Media<'images'>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
